@@ -1,0 +1,53 @@
+body{
+    background-color: #333;
+
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+#title{
+    background-color: #444;
+    height: 15lvh;
+    width: 60lvw;
+
+    justify-self: center;
+    margin-top: 2%;
+    border-radius: 2lvh;
+
+    font-size: 5lvh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#games-wrapper{
+    width: 80lvw;
+    height: 50lvh;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 2lvh;
+    
+    justify-self: center;
+    margin: 10lvh;
+}
+
+.tile{
+    background-color: #444;
+    width: 20lvh;
+    height: 20lvh;
+
+    border-radius: 2lvh;
+    
+    font-size: 2lvh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

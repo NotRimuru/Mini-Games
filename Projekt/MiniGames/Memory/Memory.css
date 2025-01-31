@@ -1,0 +1,40 @@
+body{
+    background-color: #333;
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+#game-wrapper{
+    width: fit-content;
+    height: fit-content;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+
+    gap: 2lvh;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.card{
+    width: 10lvh;
+    max-width: 10lvw;
+    aspect-ratio: 1;
+
+    border-radius: 1lvh;
+
+    background-color: #444;
+    color: #fff;
+
+    text-align: center;
+    align-content: center;
+
+    font-size: 3rem;
+}
