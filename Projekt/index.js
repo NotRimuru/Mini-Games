@@ -6,3 +6,7 @@ const Memory = document.getElementById("memory");
 Memory.addEventListener("click", (e) => {
     window.location.href = "MiniGames/Memory/Memory.html";
 });
+const RussianRoulette = document.getElementById("russian-roulette");
+RussianRoulette.addEventListener("click", (e) => {
+    window.location.href = "MiniGames/RussianRoulette/RussianRoulette.html";
+});
